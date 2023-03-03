@@ -1,0 +1,38 @@
+body {
+    background: rgb(205, 179, 179);
+}
+
+header {
+    background: beige;
+    height: 120px;
+    width: 100%;
+}
+
+.featured-books{
+    background: brown;
+    height: 80%;
+}
+
+.new-releases{
+    height: 200px;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.release {
+    border: 1px solid black;
+    height: 100%;
+}
+
+.green-box{
+    background: rgb(137, 194, 137);
+}
+.pink-box{
+    background: rgb(222, 140, 187);
+}
+.blue-box{
+    background: rgb(153, 173, 229);
+}
+.yellow-box{
+    background: rgb(212, 229, 137);
+}
